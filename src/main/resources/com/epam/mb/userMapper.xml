@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="resources.com.epam.mb.userMapper">
+    <resultMap type="User" id="UserResult">
+        <id property="Id" column="id" />
+        <result property="name" column="name" />
+        <result property="mail" column="mail" />
+    </resultMap>
+    <select id="findAllUsers" resultMap="UsersResult">
+        SELECT * FROM user
+    </select>
+    <select id="findUserById" parameterType="int" resultType="User">
+        SELECT id, name, mail
+        FROM user WHERE id=#{Id}
+    </select>
+    <insert id="insertUser" parameterType="User">
+        INSERT INTO user(id,name,mail)
+        VALUES(#{Id},#{name},#{mail},#{dob})
+    </insert>
+</mapper>
