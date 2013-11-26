@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="output" path="bin"/>
-	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry kind="src" path="src/main/resources"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
-	<classpathentry sourcepath="C:/Users/Mikita_Hladkikh/.gradle/caches/artifacts-26/filestore/org.mybatis/mybatis/3.2.3/source/9f483d6809033a974d0409fd4dc3a3820286e646/mybatis-3.2.3-sources.jar" kind="lib" path="C:/Users/Mikita_Hladkikh/.gradle/caches/artifacts-26/filestore/org.mybatis/mybatis/3.2.3/jar/7eee8564f107ce26a89ab1563ae908d2ff88e32e/mybatis-3.2.3.jar" exported="true"/>
-	<classpathentry sourcepath="C:/Users/Mikita_Hladkikh/.gradle/caches/artifacts-26/filestore/postgresql/postgresql/9.1-901.jdbc4/source/8e9d82a070f2b4d9e8561a567bf4daca36eed4e2/postgresql-9.1-901.jdbc4-sources.jar" kind="lib" path="C:/Users/Mikita_Hladkikh/.gradle/caches/artifacts-26/filestore/postgresql/postgresql/9.1-901.jdbc4/jar/153f2f92a786f12fc111d0111f709012df87c808/postgresql-9.1-901.jdbc4.jar" exported="true"/>
-</classpath>
